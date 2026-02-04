@@ -1,0 +1,133 @@
+.wrap {
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 16px;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: 22px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.btn {
+  padding: 10px 14px;
+  border: 1px solid #2b2b2b;
+  background: #151515;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #2b2b2b;
+  background: #101010;
+  color: #fff;
+}
+
+.toggle {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  user-select: none;
+  opacity: 0.95;
+}
+
+.status {
+  opacity: 0.8;
+}
+
+.card {
+  border: 1px solid #2b2b2b;
+  border-radius: 16px;
+  padding: 14px;
+  background: #0f0f0f;
+}
+
+.typedRow {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.input {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #2b2b2b;
+  background: #070707;
+  color: #fff;
+}
+
+.chat {
+  margin-top: 12px;
+}
+
+.msg {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  line-height: 1.35;
+}
+
+.role {
+  font-weight: 700;
+  min-width: 44px;
+}
+
+.heard {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px dashed #333;
+  margin-bottom: 10px;
+  opacity: 0.95;
+}
+
+.muted {
+  opacity: 0.7;
+}
+
+.note {
+  margin-top: 12px;
+  font-size: 12px;
+  opacity: 0.65;
+}
+/* Mic level meter */
+.meter {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+  height: 24px;
+  padding: 6px 8px;
+  border: 1px solid #2b2b2b;
+  border-radius: 12px;
+  background: #0a0a0a;
+}
+
+.meterBar {
+  width: 4px;
+  height: 100%;
+  border-radius: 6px;
+  background: #fff;
+  opacity: 0.9;
+  transform-origin: bottom;
+  transition: transform 70ms linear, opacity 120ms linear;
+}
+
+.meterOff {
+  opacity: 0.35;
+}
